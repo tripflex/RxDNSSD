@@ -57,9 +57,9 @@ mDNSexport const mDNSInterfaceID mDNSInterface_P2P       = (mDNSInterfaceID)-4;
 #define   NATPMPAnnouncementPortAsNumber 5350
 #define   NATPMPPortAsNumber             5351
 #define   DNSEXTPortAsNumber             5352		// Port used for end-to-end DNS operations like LLQ, Updates with Leases, etc.
-#define   MulticastDNSPortAsNumber       5353
+//#define   MulticastDNSPortAsNumber       5353
 #define   LoopbackIPCPortAsNumber        5354
-//#define MulticastDNSPortAsNumber       5355		// LLMNR
+#define MulticastDNSPortAsNumber       5355		// LLMNR
 #define   PrivateDNSPortAsNumber         5533
 
 mDNSexport const mDNSIPPort DiscardPort            = { { DiscardPortAsNumber            >> 8, DiscardPortAsNumber            & 0xFF } };
